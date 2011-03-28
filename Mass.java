@@ -12,6 +12,7 @@ public class Mass
   public void merge(Block block)
   {
     blocks.add(block);
+    //comment!!!
     block.setMass(this);
   }
 
